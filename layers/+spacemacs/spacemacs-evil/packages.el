@@ -21,7 +21,7 @@
         ;; to https://github.com/gabesoft/evil-mc
         ;; To enable it add `(global-evil-mc-mode)' to user-config function
         evil-mc
-        evil-nerd-commenter
+        ;; evil-nerd-commenter
         evil-matchit
         evil-numbers
         evil-search-highlight-persist

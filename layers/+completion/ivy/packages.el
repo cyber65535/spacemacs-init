@@ -17,14 +17,14 @@
         (counsel-projectile :toggle (configuration-layer/package-usedp 'projectile))
         evil
         flx
-        helm-make
+        ;; helm-make
         imenu
         ivy
         ivy-hydra
         (ivy-spacemacs-help :location local)
         persp-mode
         projectile
-        smex
+        ;; smex
         swiper
         wgrep
         ))

@@ -11,7 +11,7 @@
 
 (setq evil-commentary-packages
       '(evil-commentary
-        (evil-nerd-commenter :excluded t)
+        ;; (evil-nerd-commenter :excluded t)
         ))
 
 (defun evil-commentary/init-evil-commentary ()
