@@ -1,7 +1,7 @@
 (setq vim-empty-lines-packages
       '(
         (vim-empty-lines-mode :location local)
-        (vi-tilde-fringe :excluded t)
+        ;; (vi-tilde-fringe :excluded t)
         ))
 
 (defun vim-empty-lines/init-vim-empty-lines-mode ()

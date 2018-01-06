@@ -14,8 +14,8 @@
 (defvar chinese-default-input-method 'pinyin
   "The default chinese input method. Can be `wubi` or `pinyin`.")
 
-(defvar chinese-enable-youdao-dict nil
-  "Enable YouDao Dict translation service.")
+;; (defvar chinese-enable-youdao-dict nil
+;;   "Enable YouDao Dict translation service.")
 
 (defvar chinese-enable-avy-pinyin t
   "Enable ace-pinyin in avy-goto-char")

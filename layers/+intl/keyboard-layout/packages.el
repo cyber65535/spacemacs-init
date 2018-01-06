@@ -31,7 +31,7 @@
     org
     org-agenda
     ranger
-    twittering-mode
+    ;; twittering-mode
     ))
 
 (defun keyboard-layout/pre-init-ace-window ()

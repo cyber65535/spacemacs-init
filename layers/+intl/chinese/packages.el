@@ -13,14 +13,14 @@
 ;; which require an initialization must be listed explicitly in the list.
 (setq chinese-packages
       '(
-        (chinese-pyim :toggle (eq chinese-default-input-method 'pinyin))
-        (chinese-wbim :toggle (eq chinese-default-input-method 'wubi))
+        ;; (chinese-pyim :toggle (eq chinese-default-input-method 'pinyin))
+        ;; (chinese-wbim :toggle (eq chinese-default-input-method 'wubi))
         (fcitx :toggle chinese-enable-fcitx)
         find-by-pinyin-dired
         ace-pinyin
         pangu-spacing
         org
-        (youdao-dictionary :toggle chinese-enable-youdao-dict)
+        ;; (youdao-dictionary :toggle chinese-enable-youdao-dict)
         ))
 
 (defun chinese/init-fcitx ()

@@ -9,6 +9,28 @@
 ;;
 ;;; License: GPLv3
 
+;; __________MYCONFIG___________
+
+;; package
+(defvar myPackages
+  ;; add the packages
+  '(elpy
+    elin ;; Emacs ipython notebook
+    ;; youdao-dictionary
+    company-jedi
+    flycheck
+    ;; py-autopep8
+    ))
+;; (elpy-enable) ;; enable elpy
+(when (require 'flycheck nil t)
+  (setq elpy-modules (delq 'elpy-module-flymake eply-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
+;; (require 'py-autopep8)
+;; (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+;; (elpy-use-ipython)
+
+;; _____________________________
+
 ;; Without this comment emacs25 adds (package-initialize) here
 ;; (package-initialize)
 
@@ -32,3 +54,16 @@
   (spacemacs/setup-startup-hook)
   (require 'server)
   (unless (server-running-p) (server-start)))
+
+(company-quickhelp-mode 1)
+
+;; key bindings
+(when (eq system-type 'darwin) ;; mac specific settings
+  (setq mac-option-modifier 'alt)
+  (setq mac-command-modifier 'meta)
+  (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
+  )
+
+
+(global-set-key (kbd "M-/") 'comment-dwim)
+

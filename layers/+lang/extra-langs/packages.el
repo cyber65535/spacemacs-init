@@ -7,7 +7,7 @@
     scad-mode
     stan-mode
     thrift
-    wolfram-mode
+    ;; wolfram-mode
     ))
 
 (defun extra-langs/init-arduino-mode ()

@@ -11,8 +11,8 @@
 
 (defconst nlinum-packages
   '(
-    (linum :excluded t)
-    (linum-relative :excluded t)
+    ;; (linum :excluded t)
+    ;; (linum-relative :excluded t)
     nlinum
     nlinum-relative
     ))
