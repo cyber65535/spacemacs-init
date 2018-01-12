@@ -32,8 +32,6 @@
 
     git clone https://github.com/cyber65535/spacemacs-init.git ~/.emacs.d
 
-**Quick Config:**
-
     cp ~/.emacs.d/spacemacs ~/.spacemacs
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
