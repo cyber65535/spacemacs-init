@@ -391,6 +391,7 @@ you should place your code here."
 (global-set-key (kbd "M-'") 'neotree)
 (global-set-key (kbd "M-f") 'neotree-dir)
 (global-set-key (kbd "M-p") 'helm-buffers-list)
+(global-set-key (kbd "M-l") 'spacemacs/helm-jump-in-buffer)
 
 ;; indent-tools
 (global-set-key (kbd "M-]") 'indent-tools-indent)
