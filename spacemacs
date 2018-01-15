@@ -379,8 +379,8 @@ you should place your code here."
 ;; kbd global-map
 (global-set-key (kbd "<f7>") 'linum-mode)
 (global-set-key (kbd "<f8>") 'linum-relative-mode)
-(global-set-key (kbd "C-c +") (kbd "C-u - 1 0 C-x {"))  ;; 增加buffer宽度，步长10
-(global-set-key (kbd "C-c _") (kbd "C-u - 1 0 C-x }"))  ;; 减小buffer宽度，步长10
+(global-set-key (kbd "C-c =") (kbd "C-u - 1 0 C-x {"))  ;; 增加buffer宽度，步长10
+(global-set-key (kbd "C-c -") (kbd "C-u - 1 0 C-x }"))  ;; 减小buffer宽度，步长10
 (global-set-key (kbd "M--") (kbd "C-x 0"))
 (global-set-key (kbd "M-\\") (kbd "C-x 1"))
 (global-set-key (kbd "M-=") (kbd "C-x 3"))
@@ -388,9 +388,9 @@ you should place your code here."
 (global-set-key (kbd "C-c C-'") 'youdao-dictionary-search)
 (global-set-key (kbd "<f12>") 'spacemacs/jump-to-definition)
 (global-set-key (kbd "<f9>") 'spacemacs/jump-to-definition-other-window)
-(global-set-key (kbd "M-p") 'neotree)
+(global-set-key (kbd "M-'") 'neotree)
 (global-set-key (kbd "M-f") 'neotree-dir)
-(global-set-key (kbd "M-l") 'helm-buffers-list)
+(global-set-key (kbd "M-p") 'helm-buffers-list)
 
 ;; indent-tools
 (global-set-key (kbd "M-]") 'indent-tools-indent)
