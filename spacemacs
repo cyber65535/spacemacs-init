@@ -393,6 +393,11 @@ you should place your code here."
 (global-set-key (kbd "M-p") 'helm-buffers-list)
 (global-set-key (kbd "M-l") 'spacemacs/helm-jump-in-buffer)
 
+(global-set-key (kbd "C-M-/") 'help-command)
+;; (global-set-key (kbd "M-?") 'mark-paragraph)
+(global-set-key (kbd "C-h") 'delete-backward-char)
+;; (global-set-key (kbd "M-h") 'backward-kill-word)
+
 ;; indent-tools
 (global-set-key (kbd "M-]") 'indent-tools-indent)
 (global-set-key (kbd "M-[") 'indent-tools-demote)
