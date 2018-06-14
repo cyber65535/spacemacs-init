@@ -883,12 +883,12 @@ SEQ, START and END are the same arguments as for `cl-subseq'"
                    (or (cdr-safe els)
                        spacemacs-buffer-startup-lists-length)))
               (cond
-               ((eq el 'warnings)
-                (when (spacemacs-buffer//insert-string-list
-                       "Warnings:"
-                       spacemacs-buffer--warnings)
-                  (spacemacs-buffer||add-shortcut "w" "Warnings:")
-                  (insert list-separator)))
+               ;; ((eq el 'warnings)
+               ;;  (when (spacemacs-buffer//insert-string-list
+               ;;         "Warnings:"
+               ;;         spacemacs-buffer--warnings)
+               ;;    (spacemacs-buffer||add-shortcut "w" "Warnings:")
+               ;;    (insert list-separator)))
                ((eq el 'recents)
                 (recentf-mode)
                 (when (spacemacs-buffer//insert-file-list
